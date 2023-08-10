@@ -1,6 +1,6 @@
 # DATA1202_FinalProject
 
-## Here we are using two excel files, one is the fact table and the other dimension table. In this project, we are using both SQL and Python to clean and retrieve essential information from the data set
+## Here we are using two excel files, one is the fact table and the other dimension table. The fact table contains essential details about the product and its purchased date and the dimension table has Customer details. For further analysis, we are using both SQL and Python to clean and retrieve essential information from the data set
 
 ### SQL File
 
