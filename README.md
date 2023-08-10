@@ -1,5 +1,17 @@
 # DATA1202_FinalProject
 
+###SQL File
+
+## Basic Select Statement
+
+SELECT * 
+FROM onlinedataretail odr
+INNER JOIN customernames cn
+ON odr.CustomerID=cn.CustomerID
+LIMIT 20
+
+
+
 
 ### py file
 
