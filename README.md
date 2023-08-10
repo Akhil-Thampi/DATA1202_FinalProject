@@ -1,5 +1,7 @@
 # DATA1202_FinalProject
 
+## Here we are using two excel files, one is the fact table and the other dimension table. In this project, we are using both SQL and Python to clean and retrieve essential information from the data set
+
 ### SQL File
 
 ## Basic Select Statement
