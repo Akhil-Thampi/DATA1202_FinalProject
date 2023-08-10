@@ -10,6 +10,16 @@ INNER JOIN customernames cn
 ON odr.CustomerID=cn.CustomerID
 LIMIT 20
 
+## Which one among the products are the most purchased one?
+
+SELECT Description, SUM(Quantity) AS TotalPurchased
+FROM onlinedataretail odr
+INNER JOIN customernames cn
+ON odr.CustomerID=cn.CustomerID
+GROUP BY StockCode, Description
+ORDER BY TotalPurchased DESC
+LIMIT 1;
+
 
 
 
