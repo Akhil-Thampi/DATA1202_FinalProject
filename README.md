@@ -1,6 +1,6 @@
 # DATA1202_FinalProject
 
-###SQL File
+### SQL File
 
 ## Basic Select Statement
 
@@ -20,10 +20,21 @@ GROUP BY StockCode, Description
 ORDER BY TotalPurchased DESC
 LIMIT 1;
 
+## Script to create View Table
+CREATE VIEW OrderSummary AS
+SELECT *
+FROM
+    onlinedataretail odr
+JOIN
+    customernames cn
+    ON odr.CustomerID = cn.CustomerID
+
+SELECT * FROM OrderSummary
 
 
 
-### py file
+
+### Visual Studio Files
 
 ## importing libraries
 
